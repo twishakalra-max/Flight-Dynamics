@@ -6,9 +6,9 @@ from scipy.optimize import fsolve
 # NumPy 2.x renamed trapz -> trapezoid
 trapz = getattr(np, "trapezoid", None) or np.trapz
 
-st.set_page_config(page_title="Aircraft Performance Analyzer – Sumedha G (1MS24AS049)", layout="wide")
+st.set_page_config(page_title="Aircraft Performance Analyzer – Twisha Kalra (1MS24AS054)", layout="wide")
 st.title("✈️ Aircraft Performance Analyzer")
-st.markdown("**Sumedha G (1MS24AS049)**")
+st.markdown("**Twisha Kalra (1MS24AS054)**")
 st.caption("Change the inputs in the sidebar and every plot updates automatically.")
 
 # =====================================================================
